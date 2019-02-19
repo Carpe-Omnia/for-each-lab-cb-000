@@ -8,3 +8,6 @@ function iterate(callback) {
   ray.forEach(callback)
   return ray
 }
+function doToArray(ray, callback) {
+  ray.forEach(callback)
+}
