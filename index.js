@@ -3,3 +3,8 @@ function iterativeLog(ray) {
     console.log(`${index}: ${element}`)
   })
 }
+function iterate(callback) {
+  var ray = [1,2,3]
+  ray.forEach(callback)
+  return ray
+}
